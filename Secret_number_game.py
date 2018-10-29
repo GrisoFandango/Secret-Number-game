@@ -30,7 +30,7 @@ while user_num != sec_num and count <=(5):
         #i had to add this increment because i noticed that if the user did not put the number the first time requested
         #but only the second time, actually could have infinite attempts
        
-    count += 1
+    count += 1 #increase the attempt counter
     #i had to transform the string to a number to able to do math operation    
     user_num = int(user_num)
     #here i check if the user number is lower that the secret number
