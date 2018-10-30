@@ -12,7 +12,7 @@ sec_num = (random.randint(1,101))
 user_num=()
 count = 1
 
-#This loop will continue until the user did 5 attemp or guess the number
+#This loop will continue until the user did 10 attempts or guess the number
 while user_num != sec_num and count <=(10):
     
     user_num=input("Pick your number: ")
