@@ -13,7 +13,7 @@ user_num=()
 count = 1
 
 #This loop will continue until the user did 5 attemp or guess the number
-while user_num != sec_num and count <=(5):
+while user_num != sec_num and count <=(10):
     
     user_num=input("Pick your number: ")
     #This function add an exception in case the user do not insert a number
@@ -65,6 +65,7 @@ while user_num != sec_num and count <=(5):
 #after the loop finish i check if the user won or not      
 if user_num == sec_num:
     print ("Congratulations!!! YOU WON!!!")
+    print ("Your score is:", 11 - count,"out of 10")
 else:
     print ("Sorry! Out of Guess! YOU LOSE!")
     print ("Secret number is: " + str(sec_num))
